@@ -1,3 +1,10 @@
+GIT
+  remote: https://github.com/tilfin/ougai.git
+  revision: ac10d1c23754b1e18552570979995a2737420fb0
+  specs:
+    ougai (1.8.1)
+      oj (~> 3.4)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -90,8 +97,6 @@ GEM
     nokogiri (1.10.4)
       mini_portile2 (~> 2.4.0)
     oj (3.9.0)
-    ougai (1.8.1)
-      oj (~> 3.4)
     puma (3.12.1)
     rack (2.0.7)
     rack-test (1.1.0)
@@ -156,7 +161,7 @@ DEPENDENCIES
   bootsnap (>= 1.4.2)
   byebug
   listen (>= 3.0.5, < 3.2)
-  ougai
+  ougai!
   puma (~> 3.11)
   rails (~> 6.0.0)
   spring
